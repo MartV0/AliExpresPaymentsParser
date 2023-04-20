@@ -7,3 +7,5 @@ Be carefull while using if your pdf is formatted differently it will not work.
 - Python (tested with 3.10 should probably work for all versions >= 3.7)
 - [openpyxl](https://pypi.org/project/openpyxl/)
 - [pdfreader](https://pypi.org/project/pdfreader/)
+### Run:
+`python ALIPDF.py`
