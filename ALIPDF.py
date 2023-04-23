@@ -68,7 +68,7 @@ def getFilesInDirectory(directory):
 def resultatenToWorkbook(resultaten):
     workbook = openpyxl.Workbook()
     worksheet = workbook.active
-    worksheet.append(["Datum","","","exBtw","Btw","Totaal"])
+    worksheet.append(["date","","","without taxes","taxes","total"])
     for res in resultaten:
         worksheet.append(res.toList())
     return workbook
